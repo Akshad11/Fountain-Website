@@ -1,0 +1,68 @@
+.Review-div {
+}
+
+.Review-div h1 {
+  font-weight: 900;
+  font-size: 35px;
+  color: rgb(58, 58, 58);
+  padding: 30px;
+}
+.R_Text-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+}
+.R_textIcon-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 350px;
+  height: 260px;
+  font-size: 30px;
+}
+.R_div {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  width: 330px;
+  height: 250px;
+  text-align: start;
+  padding: 20px;
+}
+.R_headText-div {
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.R_headText-div img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.R_headText-div div {
+  padding-left: 20px;
+  text-align: start;
+}
+.OcolorText {
+  color: rgba(255, 111, 40, 1);
+}
+.arrowIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border: 2px solid rgba(255, 111, 40, 1);
+  border-radius: 50%;
+  margin-right: 60px;
+}
+.arrowDiv {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
