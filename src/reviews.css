@@ -1,5 +1,4 @@
-.Review-div {
-}
+.Review-div {}
 
 .Review-div h1 {
   font-weight: 900;
@@ -7,12 +6,14 @@
   color: rgb(58, 58, 58);
   padding: 30px;
 }
+
 .R_Text-div {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: start;
 }
+
 .R_textIcon-div {
   display: flex;
   flex-direction: column;
@@ -22,6 +23,7 @@
   height: 260px;
   font-size: 30px;
 }
+
 .R_div {
   flex-direction: column;
   display: flex;
@@ -32,24 +34,29 @@
   text-align: start;
   padding: 20px;
 }
+
 .R_headText-div {
   padding-bottom: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .R_headText-div img {
   width: 50px;
   height: 50px;
   border-radius: 50%;
 }
+
 .R_headText-div div {
   padding-left: 20px;
   text-align: start;
 }
+
 .OcolorText {
   color: rgba(255, 111, 40, 1);
 }
+
 .arrowIcon {
   display: flex;
   justify-content: center;
@@ -60,9 +67,259 @@
   border-radius: 50%;
   margin-right: 60px;
 }
+
 .arrowDiv {
   width: 100%;
   display: flex;
   justify-content: start;
   align-items: center;
+}
+
+.Rflex-div {
+  display: flex;
+
+}
+
+@media only screen and (max-width: 768px) {
+  .Review-div {}
+
+  .Review-div h1 {
+    font-weight: 900;
+    font-size: 35px;
+    color: rgb(58, 58, 58);
+    padding: 30px;
+  }
+
+  .R_Text-div {
+    flex-direction: column;
+  }
+
+  .R_textIcon-div {
+    text-align: center;
+
+    width: 300px;
+    height: 260px;
+    font-size: 30px;
+  }
+
+  .R_div {
+
+    width: 300px;
+    height: 250px;
+    padding: 20px;
+  }
+
+  .R_headText-div {
+    padding-bottom: 20px;
+
+  }
+
+  .R_headText-div img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  .R_headText-div div {
+    padding-left: 20px;
+  }
+
+  .OcolorText {}
+
+  .arrowIcon {
+    width: 50px;
+    height: 50px;
+    margin: 0px;
+  }
+
+  .arrowDiv {
+    width: 100%;
+    justify-content: center;
+    gap: 80px;
+  }
+
+  .Rflex-div {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .Review-div {}
+
+  .Review-div h1 {
+    font-weight: 900;
+    font-size: 35px;
+    color: rgb(58, 58, 58);
+    padding: 30px;
+  }
+
+  .R_Text-div {
+    flex-direction: column;
+  }
+
+  .R_textIcon-div {
+    text-align: center;
+
+    width: 300px;
+    height: 260px;
+    font-size: 30px;
+  }
+
+  .R_div {
+
+    width: 300px;
+    height: 250px;
+    padding: 20px;
+  }
+
+  .R_headText-div {
+    padding-bottom: 20px;
+
+  }
+
+  .R_headText-div img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  .R_headText-div div {
+    padding-left: 20px;
+  }
+
+  .OcolorText {}
+
+  .arrowIcon {
+    width: 50px;
+    height: 50px;
+    margin: 0px;
+  }
+
+  .arrowDiv {
+    width: 100%;
+    justify-content: center;
+    gap: 80px;
+  }
+
+  .Rflex-div {
+    flex-direction: row;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .Review-div {}
+
+  .Review-div h1 {
+    font-weight: 900;
+    font-size: 35px;
+    color: rgb(58, 58, 58);
+    padding: 30px;
+  }
+
+  .R_Text-div {
+    flex-direction: row;
+  }
+
+  .R_textIcon-div {
+
+    width: 300px;
+    height: 260px;
+    font-size: 30px;
+  }
+
+  .R_div {
+
+    width: 300px;
+    height: 250px;
+    padding: 20px;
+  }
+
+  .R_headText-div {
+    padding-bottom: 20px;
+
+  }
+
+  .R_headText-div img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  .R_headText-div div {
+    padding-left: 20px;
+  }
+
+  .OcolorText {}
+
+  .arrowIcon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .arrowDiv {
+    width: 100%;
+    gap: 60px;
+  }
+
+  .Rflex-div {}
+
+}
+
+@media only screen and (min-width: 1200px) {
+  .Review-div {}
+
+  .Review-div h1 {
+    font-weight: 900;
+    font-size: 35px;
+    color: rgb(58, 58, 58);
+    padding: 30px;
+  }
+
+  .R_Text-div {
+    flex-direction: row;
+  }
+
+  .R_textIcon-div {
+
+    width: 350px;
+    height: 260px;
+    font-size: 30px;
+  }
+
+  .R_div {
+
+    width: 330px;
+    height: 250px;
+    padding: 20px;
+  }
+
+  .R_headText-div {
+    padding-bottom: 20px;
+
+  }
+
+  .R_headText-div img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  .R_headText-div div {
+    padding-left: 20px;
+  }
+
+  .OcolorText {}
+
+  .arrowIcon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .arrowDiv {
+    width: 100%;
+    gap: 60px;
+  }
+
+  .Rflex-div {}
+
 }

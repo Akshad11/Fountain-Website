@@ -1,9 +1,7 @@
 .Scroll-div {
-}
-
-.Scroll-div h1 {
   padding: 20px;
-  font-size: 50px;
+}
+.Scroll-div h1 {
 }
 
 .S_scrolling_div {
@@ -12,19 +10,131 @@
   justify-content: center;
   align-items: center;
 }
+
 .scrolling {
-  margin: 20px 0px 20px 40px;
   background-color: antiquewhite;
-  width: 260px;
-  height: 300px;
   display: flex;
   justify-items: start;
   align-items: end;
 }
 
 .scrolling h3 {
-  padding: 10px;
-  font-size: 30px;
   text-align: start;
   color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+@media only screen and (max-width: 768px) {
+  .Scroll-div h1 {
+    padding: 20px;
+    font-size: 30px;
+  }
+
+  .S_scrolling_div {
+    max-width: 100%;
+    overflow-x: auto;
+    display: flex;
+    gap: 20px;
+    white-space: nowrap;
+    padding: 10px;
+  }
+
+  .scrolling {
+    width: 220px;
+    min-width: 220px;
+    height: 250px;
+
+    box-sizing: border-box;
+  }
+
+  .scrolling h3 {
+    padding: 10px;
+    font-size: 20px;
+    white-space: normal;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .Scroll-div h1 {
+    padding: 20px;
+    font-size: 50px;
+  }
+
+  .S_scrolling_div {
+    max-width: 100%;
+    overflow-x: auto;
+    display: flex;
+    gap: 20px;
+    white-space: nowrap;
+    padding: 10px;
+  }
+
+  .scrolling {
+    width: 260px;
+    min-width: 260px;
+    height: 300px;
+  }
+
+  .scrolling h3 {
+    padding: 10px;
+    font-size: 30px;
+    white-space: normal;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .Scroll-div h1 {
+    padding: 20px;
+    font-size: 50px;
+  }
+
+  .S_scrolling_div {
+    max-width: 100%;
+    overflow-x: auto;
+    display: flex;
+    gap: 20px;
+    white-space: nowrap;
+    padding: 10px;
+  }
+
+  .scrolling {
+    width: 260px;
+    min-width: 260px;
+    height: 300px;
+  }
+
+  .scrolling h3 {
+    padding: 10px;
+    font-size: 30px;
+    white-space: normal;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .Scroll-div h1 {
+    padding: 20px;
+    font-size: 50px;
+  }
+
+  .S_scrolling_div {
+    max-width: 100%;
+    overflow-x: auto;
+    display: flex;
+    gap: 20px;
+    white-space: nowrap;
+    padding: 10px;
+  }
+
+  .scrolling {
+    width: 260px;
+    min-width: 260px;
+    height: 300px;
+  }
+
+  .scrolling h3 {
+    padding: 10px;
+    font-size: 30px;
+    white-space: normal;
+  }
 }

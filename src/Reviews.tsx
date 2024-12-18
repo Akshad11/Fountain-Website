@@ -43,35 +43,37 @@ export default function Reviews() {
             </div>
           </div>
         </div>
-        <div className="R_div">
-          <div className="R_headText-div">
-            <img src={face1} alt="" />
-            <div>
-              <h3>Mohh Jumah</h3>
-              <h3 className="OcolorText">Senior Developer</h3>
+        <div className="Rflex-div">
+          <div className="R_div">
+            <div className="R_headText-div">
+              <img src={face1} alt="" />
+              <div>
+                <h3>Mohh Jumah</h3>
+                <h3 className="OcolorText">Senior Developer</h3>
+              </div>
             </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur
+              ac blandit nam massa massa elementum mollis lectus. Sit ultricies
+              nisl amet non, quis enim velit tempus. Interdum duis imperdiet
+              venenatis.
+            </p>
           </div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur
-            ac blandit nam massa massa elementum mollis lectus. Sit ultricies
-            nisl amet non, quis enim velit tempus. Interdum duis imperdiet
-            venenatis.
-          </p>
-        </div>
-        <div className="R_div">
-          <div className="R_headText-div">
-            <img src={face1} alt="" />
-            <div>
-              <h3>John Mark</h3>
-              <h3 className="OcolorText">Data Analyst</h3>
+          <div className="R_div">
+            <div className="R_headText-div">
+              <img src={face1} alt="" />
+              <div>
+                <h3>John Mark</h3>
+                <h3 className="OcolorText">Data Analyst</h3>
+              </div>
             </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur
+              ac blandit nam massa massa elementum mollis lectus. Sit ultricies
+              nisl amet non, quis enim velit tempus. Interdum duis imperdiet
+              venenatis.
+            </p>
           </div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur
-            ac blandit nam massa massa elementum mollis lectus. Sit ultricies
-            nisl amet non, quis enim velit tempus. Interdum duis imperdiet
-            venenatis.
-          </p>
         </div>
       </div>
     </div>

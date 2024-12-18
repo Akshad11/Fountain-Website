@@ -2,8 +2,7 @@
   background: url("./assets/homeBack.png");
   background-repeat: no-repeat;
   background-size: 100% 85%;
-  width: 100%;
-  height: 100vh;
+
   background-color: rgba(0, 0, 0, 0.3);
   color: white;
 }
@@ -15,47 +14,205 @@
 }
 
 .Home_Text-div h1 {
-  padding-top: 50px;
-  font-size: 60px;
-  font-weight: 900;
-  width: 800px;
 }
 
 .Home_Text-div p {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  font-size: 24px;
-  width: 700px;
 }
 
 .Home_Text-div button {
-  font-size: 16px;
-  width: 120px;
-  height: 40px;
-  color: white;
   background-color: rgba(255, 111, 40, 1);
   border-radius: 5px;
   border: none;
 }
 .home-divList {
-  margin-top: 80px;
-  width: 750px;
-  height: 100px;
-  background-color: white;
   border-radius: 10px;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 .H-divList {
-  color: black;
-  width: 190px;
-  height: 60px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
 .H-divList h3 {
-  font-size: 24px;
-  font-weight: 400;
+}
+
+@media only screen and (max-width: 768px) {
+  .Home-div {
+    width: 100%;
+    height: auto;
+    color: white;
+    background-size: 100% 80%;
+  }
+  .Home_Text-div {
+    padding: 20px;
+    gap: 40px;
+  }
+
+  .Home_Text-div h1 {
+    font-size: 25px;
+    font-weight: 900;
+    width: 300px;
+  }
+
+  .Home_Text-div p {
+    font-size: 20px;
+    width: 90%;
+  }
+
+  .Home_Text-div button {
+    font-size: 16px;
+    width: 120px;
+    height: 40px;
+    color: white;
+  }
+  .home-divList {
+    flex-wrap: wrap;
+    width: 90%;
+    background-color: white;
+  }
+  .H-divList {
+    color: black;
+    width: 150px;
+    height: 60px;
+  }
+  .H-divList h3 {
+    font-size: 17px;
+    font-weight: 400;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .Home-div {
+    width: 100%;
+    height: auto;
+    color: white;
+    background-size: 100% 90%;
+  }
+  .Home_Text-div {
+    padding: 40px;
+    gap: 40px;
+  }
+
+  .Home_Text-div h1 {
+    font-size: 40px;
+    font-weight: 900;
+    width: 600px;
+  }
+
+  .Home_Text-div p {
+    font-size: 25px;
+    width: 90%;
+  }
+
+  .Home_Text-div button {
+    font-size: 20px;
+    width: 190px;
+    height: 50px;
+    color: white;
+  }
+  .home-divList {
+    flex-wrap: wrap;
+    width: 600px;
+    background-color: white;
+  }
+  .H-divList {
+    color: black;
+    width: 150px;
+    height: 60px;
+  }
+  .H-divList h3 {
+    font-size: 20px;
+    font-weight: 400;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .Home-div {
+    width: 100%;
+    height: auto;
+    color: white;
+  }
+  .Home_Text-div {
+    padding: 0px;
+    padding-bottom: 20px;
+  }
+
+  .Home_Text-div h1 {
+    font-size: 60px;
+    font-weight: 900;
+    width: 800px;
+    gap: 50px;
+  }
+
+  .Home_Text-div p {
+    font-size: 24px;
+    width: 700px;
+  }
+
+  .Home_Text-div button {
+    font-size: 16px;
+    width: 120px;
+    height: 40px;
+    color: white;
+  }
+  .home-divList {
+    width: 750px;
+    height: 100px;
+    background-color: white;
+  }
+  .H-divList {
+    color: black;
+    width: 190px;
+    height: 60px;
+  }
+  .H-divList h3 {
+    font-size: 24px;
+    font-weight: 400;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .Home-div {
+    width: 100%;
+    height: 100vh;
+    color: white;
+  }
+  .Home_Text-div {
+  }
+
+  .Home_Text-div h1 {
+    padding-bottom: 20px;
+    font-size: 60px;
+    font-weight: 900;
+    width: 800px;
+  }
+
+  .Home_Text-div p {
+    font-size: 24px;
+    width: 700px;
+  }
+
+  .Home_Text-div button {
+    font-size: 16px;
+    width: 190px;
+    height: 50px;
+    color: white;
+  }
+  .home-divList {
+    margin-top: 80px;
+    width: 750px;
+    height: 100px;
+    background-color: white;
+  }
+  .H-divList {
+    color: black;
+    width: 190px;
+    height: 60px;
+  }
+  .H-divList h3 {
+    font-size: 24px;
+    font-weight: 400;
+  }
 }

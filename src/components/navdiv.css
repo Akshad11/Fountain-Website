@@ -1,16 +1,10 @@
 .Navbar-div {
-  padding: 30px 0px 0px 0px;
   color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.Navbar-div {
-  padding-left: 50px;
-}
-.Navbar-div {
-}
 .Navunlist {
   display: flex;
   justify-content: center;
@@ -20,12 +14,9 @@
 }
 
 .Navunlist li {
-  padding: 0px 20px 0px 20px;
-  font-size: 18px;
 }
 
 .Iconbtn-div {
-  width: 400px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -34,10 +25,183 @@
 .nav-Icon {
 }
 
-.Iconbtn-div button {
-  width: 100px;
-  height: 40px;
+.Nav_btn1 {
   border-radius: 5px;
   color: rgba(255, 111, 40, 1);
   border: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .Navbar-div {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    height: auto;
+    justify-content: space-around;
+    background-color: white;
+  }
+
+  .Navbar-div {
+  }
+  .Navunlist {
+    position: absolute;
+    padding: 20px;
+    top: 100%;
+    left: 0;
+    flex-direction: column;
+    gap: 30px;
+    background-color: rgb(255, 194, 140);
+    color: black;
+  }
+  .nav_hide {
+    left: -100%;
+  }
+
+  .Navunlist li {
+    padding: 0px 20px 0px 20px;
+    font-size: 18px;
+  }
+
+  .Iconbtn-div {
+    display: none;
+  }
+
+  .nav-Icon {
+  }
+
+  .Nav_btn1 {
+    width: 100px;
+    height: 40px;
+  }
+  .nav_icon_ring {
+    width: 25px;
+    height: 25px;
+    border: 3px solid orangered;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .Navbar-div {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    height: auto;
+    justify-content: space-around;
+    background-color: white;
+  }
+
+  .Navbar-div {
+  }
+  .Navunlist {
+    position: absolute;
+    padding: 20px;
+    top: 100%;
+    left: 0;
+    flex-direction: column;
+    gap: 30px;
+    background-color: rgb(255, 194, 140);
+    color: black;
+  }
+  .nav_hide {
+    left: -100%;
+  }
+
+  .Navunlist li {
+    padding: 0px 20px 0px 20px;
+    font-size: 18px;
+  }
+
+  .Iconbtn-div {
+    display: flex;
+    color: orangered;
+    gap: 40px;
+  }
+
+  .nav_smallIcon_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .Nav_btn1 {
+    width: 100px;
+    height: 40px;
+  }
+  .nav_icon_ring {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .Navbar-div {
+    position: static;
+    background-color: transparent;
+  }
+
+  .Navunlist {
+    position: static;
+    background-color: transparent;
+    flex-direction: row;
+    color: white;
+    gap: 20px;
+  }
+
+  .Navunlist li {
+    padding: 0px;
+    font-size: 18px;
+  }
+
+  .Iconbtn-div {
+    color: white;
+  }
+
+  .nav-Icon {
+  }
+  .menuclick {
+    display: none;
+  }
+
+  .Nav_btn1 {
+    width: 100px;
+    height: 40px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .Navbar-div {
+    position: static;
+  }
+
+  .Navunlist {
+    position: static;
+
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .Navunlist li {
+    padding: 0px;
+    font-size: 18px;
+  }
+
+  .Iconbtn-div {
+  }
+
+  .nav-Icon {
+  }
+  .menuclick {
+    display: none;
+  }
+
+  .Nav_btn1 {
+    width: 100px;
+    height: 40px;
+  }
 }
